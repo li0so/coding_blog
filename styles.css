@@ -118,13 +118,12 @@ footer {
 @media screen and (max-width: 500px) {
 
     .banner_image {
-        height: 400px;
+        height: 350px;
         width: 100%;
     }
 
     .banner_image h1 {
         font-size: 20px;
-        color: yellow;
     }
 
     nav {
@@ -133,8 +132,10 @@ footer {
     }
 
     nav h3 {
-        font-size: 35px;
-        text-align: center;    }
+        font-size: 30px;
+        text-align: center;    
+        margin-bottom: 20px;
+    }
 }
 
 
