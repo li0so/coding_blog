@@ -134,6 +134,7 @@ footer {
     nav ul {
         text-align: center;
         border: solid 1px black;
+        margin: auto;
     }
 
     nav h3 {
