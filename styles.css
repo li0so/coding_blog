@@ -113,12 +113,29 @@ footer {
     color: azure;
 }
 
-/* .footer_box {
+/* MEDIA QUERIES */
 
-} */
+@media screen and (max-width: 500px) {
 
-/* #logo_box {
-    border: solid 2px red;
-} */
+    .banner_image {
+        height: 350px;
+        width: 100%;
+    }
+
+    .banner_image h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav h3 {
+        font-size: 30px;
+        text-align: center;    
+        margin-bottom: 20px;
+    }
+}
 
 
