@@ -131,15 +131,21 @@ footer {
         flex-direction: column;
     }
 
+    nav ul {
+        text-align: center;
+        border: solid 1px black;
+    }
+
     nav h3 {
         font-size: 30px;
         text-align: center;    
         margin-bottom: 20px;
     }
 
-    nav ul a {
+    /* nav ul a {
         text-align: center;
-    }
+        margin: auto;
+    } */
 }
 
 
