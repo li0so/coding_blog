@@ -118,35 +118,23 @@ footer {
 @media screen and (max-width: 500px) {
 
     .banner_image {
-        height: 200px;
+        height: 400px;
+        width: 100%;
     }
 
     .banner_image h1 {
-        font-size: 0.5em;
+        font-size: 20px;
         color: yellow;
     }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav h3 {
+        font-size: 35px;
+        text-align: center;    }
 }
 
-@media screen and (max-width: 800px) {
 
-    .banner_image {
-        height: 10em;
-    }
-
-    .banner_image h1 {
-        font-size: 2em;
-        color: lime;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-
-    .banner_image {
-        height: 15em;
-    }
-
-    .banner_image h1 {
-        font-size: 2em;
-        color: red;
-    }
-}
