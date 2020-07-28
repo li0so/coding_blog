@@ -80,15 +80,6 @@ nav h3 {
     text-decoration: underline;
 }
 
-/* Old post time styling */
-
-/* .post_time {
-    display: flex;
-    align-self: flex-end;
-    margin-left: auto;
-    text-decoration: underline;
-} */
-
 .post_time {
     font-size: 22px;
 }
