@@ -9,24 +9,34 @@ p {
     font-size: 20px;
 }
 
-nav {
+/* nav {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1.5em;
+    border: solid 3px black;
+} */
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     width: 20em;
+    margin-right: 2em;
+    /* border: solid 1px black; */
 }
 
 nav ul a {
     color: black;
     text-decoration: none;
+    /* border: solid 1px black; */
+    align-content: center;
 }
 
 nav ul a:hover {
@@ -36,6 +46,8 @@ nav ul a:hover {
 
 nav h3 {
     font-size: 3em;
+    margin-left: 3em;
+    /* border: solid 1px black; */
 }
 
 .banner_image {
